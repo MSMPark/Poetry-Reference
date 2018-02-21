@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Open+Sans+Condensed:300|Roboto+Condensed');
+
+.navigating{
+	margin: 0;
+	font-family:'Roboto Condensed', sans-serif;
+	overflow: auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a:hover{
+	text-decoration:none;
+}
+
+.nav-title h1{
+	width:flex;
+	color:#ff6666;
+	text-align:center;
+	text-decoration:none;
+	padding:10px;
+	padding-right: 50px
+}
+
+.nav-ul{
+	list-style-type:none;
+	padding: 0px;
+	float:left;
+}
+
+.nav-brand, .nav-list{
+	display:inline-block;
+	float:left;
+}
+
+li.navlist{
+	width: flex;
+	float:left;
+	display:inherit;
+	text-align:center;
+	padding: 18px;
+	padding-bottom:19px;
+}
+
+a li:hover {
+	background-color: #d9d9d9;
+}
+
+.active {
+    background-color: #d9d9d9;
+}
